@@ -38,6 +38,8 @@ Cheatsheet https://conda.io/docs/_downloads/conda-cheatsheet.pdf
 conda create -n tensorflow-p2 python=2.7     
 source activate tensorflow-p2     
 conda install -c conda-forge keras
-conda install numpy pandas matplotlib tensorflow jupyter notebook scipy scikit-learn nb_conda  nltk   
-pip install tgym
+conda install numpy pandas matplotlib tensorflow jupyter notebook scipy scikit-learn nb_conda  nltk  
+git clone https://github.com/Prediction-Machines/Trading-Gym.git      
+cd Trading-Gym     
+pip install .      
 
