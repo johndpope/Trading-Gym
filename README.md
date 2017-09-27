@@ -28,3 +28,15 @@ Our environments API is strongly inspired by OpenAI Gym. We aim to entirely base
 Some examples are available in `tgym/examples/`
 
 To run the `dqn_agent.py` example, you will need to also install keras with `pip install keras`. By default, the backend will be set to Theano. You can also run it with Tensorflow by installing it with `pip install tensorflow`. You then need to edit `~/.keras/keras.json` and make sure `"backend": "tensorflow"` is specified.
+
+
+Install Conda https://conda.io/docs/installation.html       
+              
+Cheatsheet https://conda.io/docs/_downloads/conda-cheatsheet.pdf                     
+              
+## Python 2.7 Machine Learning Environment     
+conda create -n tensorflow-p2 python=2.7     
+source activate tensorflow-p2     
+conda install -c conda-forge keras
+conda install numpy pandas matplotlib tensorflow jupyter notebook scipy scikit-learn nb_conda  nltk     
+
