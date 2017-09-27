@@ -42,4 +42,6 @@ conda install numpy pandas matplotlib tensorflow jupyter notebook scipy scikit-l
 git clone https://github.com/Prediction-Machines/Trading-Gym.git      
 cd Trading-Gym     
 pip install .      
+python examples/dqn_agent.py
+
 
